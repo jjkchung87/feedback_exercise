@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block title %} 401 {% endblock %}
+{% block content %}
+Not authenticated or authorized. Return to <a href="/users/{{session['username']}}">your page</a>
+{% endblock %}
